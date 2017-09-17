@@ -312,7 +312,20 @@ a {
     .project {
     margin-bottom: 48px;
 }
+   
+    .intro-box {
+    display: block;
+    position: relative;
+        margin-top: 33%;
+    top:auto;
+    left:auto;
+     -webkit-transform: translate(0%, 0%);
+    transform: translate(0%,0%);
+    width:90%;
+}
     
+    
+}
     
  @media only screen and (max-width : 420px)	
 {
