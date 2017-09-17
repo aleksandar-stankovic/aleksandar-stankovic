@@ -316,7 +316,7 @@ a {
     .intro-box {
     display: block;
     position: relative;
-        margin-top: 33%;
+        margin-top: 32px;
     top:auto;
     left:auto;
      -webkit-transform: translate(0%, 0%);
