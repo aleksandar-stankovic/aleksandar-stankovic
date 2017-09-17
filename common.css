@@ -1,0 +1,322 @@
+a {
+    color: #e54848;
+    text-decoration: none;
+}
+
+.page-wrapper {
+    display: block;
+    max-width: 1920px;
+    height: auto;
+    margin: 0 auto;
+    overflow: auto;
+
+}
+
+.page-wrapper:after {
+  clear: both;
+}
+
+.half  {
+    display: inline-block;
+    box-sizing: border-box;
+    float: left;
+    padding:60px 90px;
+}
+
+#lefthalf{
+    width:35%;
+    
+}
+
+#righthalf {
+    width:65%;
+    font-size: 20px;
+    font-family: 'Playfair Display';
+}
+
+
+
+.menu-wrap {
+    display: block;
+    height: 80%;
+    width: 100%;
+    position: relative;
+  
+}
+
+.menu-box {
+    display: block;
+    position: fixed;
+    top:47%;
+    left:20%;
+    transform: translate(-50%,-50%);
+}
+
+.menu-item {
+    display: block;
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-weight: 900;
+    font-size:64px;
+    
+}
+
+.menu-item:hover {
+    cursor: pointer;
+    color: #e54848;
+}
+
+.chbox {
+    display: none;
+}
+
+.menu-item:focus {
+    text-decoration: line-through;
+}
+
+.intro-wrap {
+    display: block;
+    height: 80%;
+    width: 100%;
+    position: relative;
+  
+}
+
+.intro-box {
+    display: block;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:80%;
+}
+
+.dforb {
+    position: relative;
+    display: block;
+    font-size: 108px;
+    font-family: Poppins;
+    font-weight: 900;
+     color: #e54848;
+    text-transform: uppercase;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.hint {
+    font-size: 54px;
+    color: #000;
+}
+
+.dforb:hover .floater {
+    display: table-cell;
+}
+
+.floater {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    top:0;
+    left: 0;
+    overflow: hidden;
+    font-size: 54px;
+    color: #000;
+    cursor: cell;
+}
+
+.red {
+    color: #e54848;
+}
+
+.cont {
+    display: block;
+    font-size: 64px;
+    font-family: Poppins;
+    font-weight: 900;
+     color: #e54848;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.project {
+    margin-bottom: 108px;
+    max-width: 960px;
+}
+
+.place {
+    display: block;
+    font-family: 'Playfair Display';
+    color: #e54848;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.project span {
+    font-family: 'Playfair Display';
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.project_title {
+    display: block;
+    font-family: Poppins !important;
+    font-size:32px;
+    font-weight: 700;
+    
+}
+
+.project_subtitle {
+    display: block;
+    
+}
+
+.project_description {
+    display: block;
+}
+
+.project_text {
+    display:none;
+}
+
+.more_less {
+    display: block;
+    margin: auto;
+    width: 96px;
+    text-align: left;
+    cursor: pointer;
+    padding: 4px 0;
+    font-weight: 700;
+    border-bottom: 4px solid #e54848;
+    font-size: 18px;
+}
+
+.more_less:hover {
+    border-bottom: 4px solid #fff;
+    color: #e54848;
+    
+}
+
+
+    
+    @media only screen and (max-width: 1269px) {
+        .intro-box {
+            width:100%;
+        }
+        
+        .dforb {
+        font-size:88px;
+        }
+        
+        .hint {
+    font-size: 35px;
+}
+        
+        .floater {
+            font-size:35px;
+        }
+        
+        .cont {
+            font-size:54px;
+        }
+        
+        .menu-item {
+            font-size:54px;
+        }
+        
+        
+        
+}
+
+  @media only screen and (max-width: 1031px) {
+        
+        .dforb {
+        font-size:72px;
+        }
+      .hint {
+    font-size: 30px;
+}
+        .floater {
+            font-size:30px;
+        }
+         .cont {
+            font-size:48px;
+        }
+        .menu-item {
+            font-size:48px;
+        }
+        
+}
+
+@media only screen and (max-width : 960px)	
+{
+    
+  
+    
+    .half  {
+    padding:20px 20px;
+}
+
+#lefthalf{
+    height: 100%;
+    width:10%;
+    padding: 10px 0;
+    
+}
+
+#righthalf {
+    width:90%;
+    font-size: 18px;
+    
+}
+    
+    .menu-box {
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    transform: translate(0%,0%);
+}
+
+.menu-item {
+    display: block;
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-weight: 900;
+    font-size:24px;
+    writing-mode: tb-rl;
+    padding: 16px 0;
+    
+}
+    
+     .dforb {
+        font-size:56px;
+        }
+     .hint {
+    font-size: 24px;
+}
+        .floater {
+            font-size:24px;
+        }
+         .cont {
+            font-size:32px;
+        }
+        .menu-item {
+            font-size:32px;
+        }
+        
+    .project {
+    margin-bottom: 48px;
+}
+    
+    
+}
+
+@media only screen and (min-width: 2140px) {
+        .menu-box {
+            left:33%;
+    }
+    
+}
