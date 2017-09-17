@@ -49,6 +49,7 @@ a {
     position: fixed;
     top:47%;
     left:20%;
+     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%,-50%);
 }
 
@@ -87,6 +88,7 @@ a {
     position: absolute;
     top:50%;
     left:50%;
+     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%,-50%);
     width:80%;
 }
@@ -311,6 +313,50 @@ a {
     margin-bottom: 48px;
 }
     
+    
+ @media only screen and (max-width : 420px)	
+{
+    
+  
+    
+    .half  {
+    padding:12px 12px;
+}
+
+#lefthalf{
+    height: 100%;
+    width:10%;
+    padding: 16px 0;
+    
+}
+
+#righthalf {
+    width:90%;
+    font-size: 18px;
+    
+}
+    
+    
+     .dforb {
+        font-size:48px;
+        }
+     .hint {
+    font-size: 20px;
+}
+        .floater {
+            font-size:20px;
+        }
+         .cont {
+            font-size:28px;
+        }
+        .menu-item {
+            font-size:24px;
+        }
+        
+    .project {
+    margin-bottom: 48px;
+}
+      
     
 }
 
